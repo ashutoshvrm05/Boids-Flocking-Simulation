@@ -69,5 +69,6 @@ Building this simulation was a deep dive into physics programming, algorithm opt
 ## 💡 Inspiration and Links
 
 Check out this ammazing video by [SmarterEveryDay](https://www.youtube.com/@smartereveryday) - [I Didn't know Birds use Math in Murmurations! - Smarter Every Day 234](https://www.youtube.com/watch?v=4LWmRuB-uNU)
+
 From where i Learned Spacial Positioning         - [Neat AI does Spatial Hash Boids](https://youtu.be/i0OHeCj7SOw?si=UyjyTzWsg-OuUxR_)
 
