@@ -41,6 +41,12 @@ By adjusting the weight (strength) of these rules and the boid's visibility radi
   3. Cohesion: Higher cohesion means a higher tendency to form closter. It's the tendency of a boid to move to the center of a cluster (central tendency).
   4. Alignment: This parameter tells the boid to align itself to the average direction of motion (velocity) of other boids within it's visibility radius. A higher parameter value will make the boids look like a marching group, all moving in the same direction.
 
+Some interesting emergent behavirous at different parameter setting.
+
+  1. The "Panic" Swarm: If you set Separation to maximum and Cohesion to minimum, the flock structure breaks down entirely. The boids act like a scattered school of fish evading a predator, constantly repelling each other and refusing to group up.
+  2. The "Black Hole": If you set Cohesion to maximum and Separation to zero, the boids will aggressively cluster into a single, dense, overlapping dot, losing all organic structure.
+  3. The "Marching Band": High Alignment with moderate Separation and Cohesion results in a rigid, highly uniform flock that moves in lockstep, similar to migrating birds.
+
 ```python
     NUM_OF_BOIDS = 500
     SEPARATION_WEIGHT = 10
